@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <!-- Unordered List -->
+    
     <ul>
       <li v-for="(result, index) in results" :key="index">{{ result }}</li>
     </ul>
 
-    <!-- Table
+    
     <table>
       <tr v-for="(result, index) in results" :key="index">
         <td>{{ result }}</td>
       </tr>
-    </table> -->
+    </table>
   </div>
 </template>
 
